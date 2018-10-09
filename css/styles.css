@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ----------------------------- *\
 |             $COLORS             |
 \* ----------------------------- */
@@ -6,6 +7,34 @@
 /* ----------------------------- *\
 |             $BUTTOMS             |
 \* ----------------------------- */
+.btn {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #ea83ee;
+  line-height: 2.5;
+  border-radius: 3px;
+  font-size: 24px; }
+
+/*
+Anidaciones 
+
+.btn {  
+  font-size: 15pt;
+  &__icon {
+    font-size: .6em;
+  }
+  &.btn--info {
+    background-color: $color-info;
+  }
+}
+ El comodín & se usa para hacer referencia al padre.
+*/
+.btn_icon {
+  font-size: .6em; }
+
+.btn--info {
+  background-color: #42b8dd; }
+
 /* ----------------------------- *\
 |             $GRIDS              |
 \* ----------------------------- */
