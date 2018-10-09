@@ -4,6 +4,10 @@
 
 section {
     @include max-width;
+    background-color: blue;
+    @include respond-to(800px){
+     background-color: red;
+    }
     background-color: $color-lightgrey;
     padding: $padding;
 }
