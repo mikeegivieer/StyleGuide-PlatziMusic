@@ -59,6 +59,8 @@ blockquote  {
 	font-family : $altfont;
 	font-style : normal;
 	p {
+		font-size: map-get($fs, normal );
+		
 		color:$color-grey;
 		font-style: italic;
         line-height: 1.5;
